@@ -1,6 +1,6 @@
 
 package tecplane;
-
+//Nodo
 /**
  *Se crea la clase NodoPasajero.
  */

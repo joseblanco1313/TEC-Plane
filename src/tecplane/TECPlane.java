@@ -65,8 +65,8 @@ public class TECPlane {
         p5.setPlanLealtad("Platino");
                 cola.enqueue(p5);
         System.out.println("Cola Normal: " + cola.toString());
-                    cola.colaPrioridad(cola, colaNueva);
-        System.out.println("Cola prioridad:" + colaNueva.toStringColaPrioridad());
+        cola.crearAsientos();
+        System.out.println("Cola prioridad:" + colaNueva.toString());
         
         
 

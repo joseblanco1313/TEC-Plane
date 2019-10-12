@@ -1,5 +1,5 @@
 package tecplane;
-
+//Pasajero
 /**
  *Se crea la clase pasajero: contendrá datos de los usuarios.
  */
