@@ -1,7 +1,7 @@
 
 package tecplane;
 
-/** Se crea el método main que ejecutará todo el código
+/** Se crea el método main que ejecutará todo el código.
  *
  * @authors Jose Ignacio Blanco Chaves, Julio Romero Chacón, Kevin Rojas Salazar
  */

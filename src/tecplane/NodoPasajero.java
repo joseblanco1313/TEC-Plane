@@ -2,7 +2,7 @@
 package tecplane;
 
 /**
- *Se crea la clase NodoPasajero
+ *Se crea la clase NodoPasajero.
  */
 public class NodoPasajero {
         //Se definen los atributos de la clase NodoPasajero

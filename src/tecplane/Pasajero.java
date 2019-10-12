@@ -1,7 +1,7 @@
 package tecplane;
 
 /**
- *Se crea la clase pasajero: contendrá datos de los usuarios
+ *Se crea la clase pasajero: contendrá datos de los usuarios.
  */
 public class Pasajero {
     //Atributos
