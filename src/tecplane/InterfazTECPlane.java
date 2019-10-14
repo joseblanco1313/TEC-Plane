@@ -1,5 +1,5 @@
 package tecplane;
-
+//
 import javax.swing.JOptionPane;
 
 public class InterfazTECPlane extends javax.swing.JFrame {

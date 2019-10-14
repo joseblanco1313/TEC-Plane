@@ -1,3 +1,4 @@
+//
 package tecplane;
 //Se importa la clase Random
 import java.util.Random;

@@ -69,8 +69,32 @@ public class TECPlane {
         System.out.println("Cola prioridad:" + colaNueva.toString());
         
         
+//Probando vuelos
+Vuelos vuelo1 = new Vuelos();
+vuelo1.setOrigen("SJO");
+vuelo1.setDestino("MEX");
+vuelo1.setNumeroVuelo(21);
+
+Vuelos vuelo2 = new Vuelos();
+vuelo2.setOrigen("SJO");
+vuelo2.setDestino("NYC");
+vuelo2.setNumeroVuelo(101);
+
+Vuelos vuelo3 = new Vuelos();
+vuelo3.setOrigen("SJO");
+vuelo3.setDestino("MDW");
+vuelo3.setNumeroVuelo(85);
 
 
+Puerta puertas = new Puerta();
+puertas.setNumeroPuerta(6);
+int numero = puertas.getNumeroPuerta();
+ListaVuelos lista = new ListaVuelos();
+lista.append(vuelo1);
+lista.append(vuelo2);
+lista.append(vuelo3);
+lista.puertasArray(numero);
+lista.asignarPuerta(lista);
     }
     
 }

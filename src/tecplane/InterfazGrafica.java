@@ -1,5 +1,5 @@
 package tecplane;
-
+//
 public class InterfazGrafica extends javax.swing.JFrame {
 
     /**
