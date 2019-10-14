@@ -80,10 +80,11 @@ public class ColaCheckIn {
                
            }
        }
-       public void asignarAsientos (Pasajero pasajero){
+       public String asignarAsientos (Pasajero pasajero){
            Random numeroRandom1 = new Random();
            int randomAsiento1 = numeroRandom1.nextInt(300);
-           pasajero.setAsiento(asientos[randomAsiento1]+" " + pasajero.getPlanLealtad());
+           pasajero.setAsiento(asientos[randomAsiento1]);//+" " + pasajero.getPlanLealtad());
+           return pasajero.getAsiento();
        }
        public ColaCheckIn colaPrioridad (ColaCheckIn cola, ColaCheckIn  colaNueva){
      
